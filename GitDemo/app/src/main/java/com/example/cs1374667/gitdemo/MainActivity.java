@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Toast toast = Toast.makeText(MainActivity.this, "Hello", Toast.LENGTH_SHORT);
+                toast.show();
             }
         });
     }
